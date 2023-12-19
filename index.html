@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Reconnaissance Vocale</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <button id="startButton">Démarrer la Reconnaissance Vocale</button>
+      <button id="stopButton" disabled>Arrêter la Reconnaissance Vocale</button>
+    </div>
+
+    <div>
+      <label for="language">Sélectionner une langue :</label>
+      <select id="language">
+        <option value="fr-FR">Français (France)</option>
+        <option value="en-US">English (United States)</option>
+        <!-- Ajoutez d'autres langues et valeurs ici -->
+      </select>
+    </div>
+
+    <p id="transcript"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
